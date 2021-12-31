@@ -1,0 +1,14 @@
+Select * from country WHERE continent='Europe'
+
+INSERT into customer VALUES (174,'Jayanth','1444 West Taylor Street, Apt 3D','Chicago','IL',60607);
+
+SELECT * FROM customer;
+
+UPDATE customer set name='Jayanth Appalla' where id=174;
+
+select * from customer;
+
+delete from customer where id=2;
+
+select * from customer;
+
